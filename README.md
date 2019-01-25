@@ -40,6 +40,12 @@ $ amplify init
 $ amplify add auth
 ```
 
+### Add aws-amplify javascript SDK
+```bash
+$ npm install --save aws-amplify
+$ npm install --save aws-amplify-vue
+```
+
 ###
 ```javascript
 
