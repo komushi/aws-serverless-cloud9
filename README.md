@@ -13,15 +13,20 @@ $ nvm alias default stable
 ```
 
 ### Test initial web application
+* Start web app for preview 
 ```bash
 $ npm install
 $ npm run serve
 ```
+* Click "Preview" => "Preview Running Application"
+
+Screenshot: ![Alt](/images/cloud9.png)
 
 ### Install aws amplify cli
 ```bash
 $ npm install -g @aws-amplify/cli
 ```
+
 
 ### Configure default profile
 ```bash
