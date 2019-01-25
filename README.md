@@ -6,12 +6,6 @@ $ git clone https://github.com/komushi/aws-serverless-cloud9.git
 $ cd aws-serverless-cloud9
 ```
 
-### Upgrade node
-```bash
-$ nvm install v8
-$ nvm alias default stable
-```
-
 ### Test initial web application
 * Start web app for preview 
 ```bash
@@ -27,16 +21,6 @@ Screenshot: ![Alt](/images/cloud9.png)
 $ npm install -g @aws-amplify/cli
 ```
 
-
-### Configure default profile
-```bash
-$ aws configure --profile default
-AWS Access Key ID [****************6THV]: 
-AWS Secret Access Key [****************9mj1]: 
-Default region name [us-east-1]: ap-northeast-1
-Default output format [None]: json
-```
-
 ### Initialize amplify
 ```bash
 $ amplify init
@@ -48,5 +32,10 @@ $ amplify init
 ? Build Command:  npm run-script build
 ? Start Command: npm run-script serve
 ? Do you want to use an AWS profile?: Yes
-? Please choose the profile you want to use: default
+? Please choose the profile you want to use: ap-northeast-1
+```
+
+### Amplify add auth
+```bash
+$ amplify add auth
 ```
