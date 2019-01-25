@@ -8,7 +8,8 @@ $ cd aws-serverless-cloud9
 
 ### Upgrade node
 ```bash
-$ nvm i v8
+$ nvm install v8
+$ nvm alias default stable
 ```
 
 ### Test initial web application
