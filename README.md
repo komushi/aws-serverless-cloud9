@@ -1,21 +1,15 @@
 # aws-serverless-cloud9
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+```bash
+git clone 
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+
+### Upgrade node
+```bash
+nvm i v8
 ```
 
-### Lints and fixes files
-```
-npm run lint
+```bash
+npm install -g @aws-amplify/cli
 ```
